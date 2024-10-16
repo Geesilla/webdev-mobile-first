@@ -1,3 +1,33 @@
+form > div {
+  margin: 15px 0;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 15px;
+}
+
+input[type="submit"] {
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+  padding: 17px;
+}
+
+label {
+  padding: 5px;
+  border: 10px;
+}
+
 body {
     font-family: helvetica, arial, sans-serif;
     font-size: 1em;
@@ -27,6 +57,11 @@ main,
   header h1 a {
     color: #fff;
     text-decoration: none;
+  }
+
+  nav{
+    overflow: hidden;
+    transition: height 0.5s;
   }
 
   nav ul {
@@ -64,3 +99,18 @@ main,
     text-align: center;
     font-style: italic;
   }
+
+  .burger > .line{
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+
+  #logo {
+    /* text-align: center; */
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+  }
+
